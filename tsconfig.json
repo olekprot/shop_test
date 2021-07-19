@@ -1,0 +1,48 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "target": "ES5",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": true,
+    "noImplicitAny": true,
+    "pretty": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noEmitHelpers": true,
+    "noUnusedLocals": true,
+    "noImplicitThis": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "alwaysStrict": true,
+    "forceConsistentCasingInFileNames": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": false,
+    "strictBindCallApply": true,
+    "downlevelIteration": true,
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["chosen-js", "jest", "jquery", "datatables.net"],
+    "lib": ["es7", "dom", "es2017.intl", "es2018.intl", "esnext.intl"],
+    "module": "es2020",
+    "inlineSources": true,
+    "importHelpers": true
+  },
+  "exclude": ["**/*.spec.ts"],
+  "files": ["Spa_Source/main.ts"],
+  "include": ["Spa_Source/**/*.d.ts"],
+  "angularCompilerOptions": {
+    "fullTemplateTypeCheck": true,
+    "strictTemplates": true,
+    "strictInjectionParameters": true,
+    "enableIvy": true,
+    "disableTypeScriptVersionCheck": false
+  }
+}
+
